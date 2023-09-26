@@ -1,0 +1,67 @@
+/* Блоки */
+.header {
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+.nav {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.services,
+.portfolio,
+.contact {
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Элементы */
+.header__title {
+    font-size: 36px;
+}
+
+.nav__list {
+    list-style: none;
+    padding: 0;
+}
+
+.nav__item {
+    display: inline;
+    margin-right: 20px;
+}
+
+.services__title,
+.portfolio__title,
+.contact__title {
+    font-size: 24px;
+}
+
+/* Модификаторы */
+.nav__link {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.contact__info {
+    margin-bottom: 5px;
+}
