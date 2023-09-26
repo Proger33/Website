@@ -3,83 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>IT-Аутсорсинг Компания</title>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
-    <style>
-        body {
-            font-family: 'Roboto', sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f0f0f0;
-        }
-        header {
-            background-color: #007bff;
-            color: #fff;
-            text-align: center;
-            padding: 20px;
-        }
-        h1 {
-            font-size: 36px;
-        }
-        nav {
-            background-color: #333;
-            color: #fff;
-            text-align: center;
-            padding: 10px;
-        }
-        nav ul {
-            list-style: none;
-            padding: 0;
-        }
-        nav li {
-            display: inline;
-            margin-right: 20px;
-        }
-        .container {
-            max-width: 1200px;
-            margin: 20px auto;
-            padding: 20px;
-            background-color: #fff;
-        }
-        footer {
-            background-color: #333;
-            color: #fff;
-            text-align: center;
-            padding: 10px;
-        }
-    </style>
+    <title>IT-РђСѓС‚СЃРѕСЂСЃРёРЅРі РљРѕРјРїР°РЅРёСЏ</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <h1>IT-Аутсорсинг Компания</h1>
-        <p>Ваш партнер в мире технологий</p>
+    <header class="header">
+        <h1 class="header__title">IT-РђСѓС‚СЃРѕСЂСЃРёРЅРі РљРѕРјРїР°РЅРёСЏ</h1>
+        <p class="header__description">Р’Р°С€ РїР°СЂС‚РЅРµСЂ РІ РјРёСЂРµ С‚РµС…РЅРѕР»РѕРіРёР№</p>
     </header>
-    <nav>
-        <ul>
-            <li><a href="#services">Услуги</a></li>
-            <li><a href="#portfolio">Портфолио</a></li>
-            <li><a href="#contact">Контакты</a></li>
+    <nav class="nav">
+        <ul class="nav__list">
+            <li class="nav__item"><a href="#services" class="nav__link">РЈСЃР»СѓРіРё</a></li>
+            <li class="nav__item"><a href="#portfolio" class="nav__link">РџРѕСЂС‚С„РѕР»РёРѕ</a></li>
+            <li class="nav__item"><a href="#contact" class="nav__link">РљРѕРЅС‚Р°РєС‚С‹</a></li>
         </ul>
     </nav>
     <div class="container">
-        <section id="services">
-            <h2>Наши Услуги</h2>
-            <p>Мы предоставляем широкий спектр услуг по аутсорсингу IT-проектов, включая разработку программного обеспечения, поддержку и обслуживание IT-инфраструктуры, консультации и многое другое.</p>
+        <section id="services" class="services">
+            <h2 class="services__title">РќР°С€Рё РЈСЃР»СѓРіРё</h2>
+            <p class="services__description">РњС‹ РїСЂРµРґРѕСЃС‚Р°РІР»СЏРµРј С€РёСЂРѕРєРёР№ СЃРїРµРєС‚СЂ СѓСЃР»СѓРі РїРѕ Р°СѓС‚СЃРѕСЂСЃРёРЅРіСѓ IT-РїСЂРѕРµРєС‚РѕРІ, РІРєР»СЋС‡Р°СЏ СЂР°Р·СЂР°Р±РѕС‚РєСѓ РїСЂРѕРіСЂР°РјРјРЅРѕРіРѕ РѕР±РµСЃРїРµС‡РµРЅРёСЏ, РїРѕРґРґРµСЂР¶РєСѓ Рё РѕР±СЃР»СѓР¶РёРІР°РЅРёРµ IT-РёРЅС„СЂР°СЃС‚СЂСѓРєС‚СѓСЂС‹, РєРѕРЅСЃСѓР»СЊС‚Р°С†РёРё Рё РјРЅРѕРіРѕРµ РґСЂСѓРіРѕРµ.</p>
         </section>
-        <section id="portfolio">
-            <h2>Наше Портфолио</h2>
-            <p>Взгляните на некоторые из наших успешных проектов, которые мы реализовали для наших клиентов.</p>
-            <!-- Здесь можно добавить изображения и описания проектов -->
+        <section id="portfolio" class="portfolio">
+            <h2 class="portfolio__title">РќР°С€Рµ РџРѕСЂС‚С„РѕР»РёРѕ</h2>
+            <p class="portfolio__description">Р’Р·РіР»СЏРЅРёС‚Рµ РЅР° РЅРµРєРѕС‚РѕСЂС‹Рµ РёР· РЅР°С€РёС… СѓСЃРїРµС€РЅС‹С… РїСЂРѕРµРєС‚РѕРІ, РєРѕС‚РѕСЂС‹Рµ РјС‹ СЂРµР°Р»РёР·РѕРІР°Р»Рё РґР»СЏ РЅР°С€РёС… РєР»РёРµРЅС‚РѕРІ.</p>
+            <!-- Р—РґРµСЃСЊ РјРѕР¶РЅРѕ РґРѕР±Р°РІРёС‚СЊ РёР·РѕР±СЂР°Р¶РµРЅРёСЏ Рё РѕРїРёСЃР°РЅРёСЏ РїСЂРѕРµРєС‚РѕРІ -->
         </section>
-        <section id="contact">
-            <h2>Наши Контакты</h2>
-            <p>Свяжитесь с нами, чтобы обсудить ваши потребности в IT-аутсорсинге. Мы всегда готовы помочь вам достичь ваших целей.</p>
-            <p>Email: info@example.com</p>
-            <p>Телефон: +7 (123) 456-7890</p>
+        <section id="contact" class="contact">
+            <h2 class="contact__title">РќР°С€Рё РљРѕРЅС‚Р°РєС‚С‹</h2>
+            <p class="contact__description">РЎРІСЏР¶РёС‚РµСЃСЊ СЃ РЅР°РјРё, С‡С‚РѕР±С‹ РѕР±СЃСѓРґРёС‚СЊ РІР°С€Рё РїРѕС‚СЂРµР±РЅРѕСЃС‚Рё РІ IT-Р°СѓС‚СЃРѕСЂСЃРёРЅРіРµ. РњС‹ РІСЃРµРіРґР° РіРѕС‚РѕРІС‹ РїРѕРјРѕС‡СЊ РІР°Рј РґРѕСЃС‚РёС‡СЊ РІР°С€РёС… С†РµР»РµР№.</p>
+            <p class="contact__info">Email: info@example.com</p>
+            <p class="contact__info">РўРµР»РµС„РѕРЅ: +7 (123) 456-7890</p>
         </section>
     </div>
-    <footer>
-        &copy; 2023 IT-Аутсорсинг Компания. Все права защищены.
+    <footer class="footer">
+        &copy; 2023 IT-РђСѓС‚СЃРѕСЂСЃРёРЅРі РљРѕРјРїР°РЅРёСЏ. Р’СЃРµ РїСЂР°РІР° Р·Р°С‰РёС‰РµРЅС‹.
     </footer>
 </body>
 </html>
